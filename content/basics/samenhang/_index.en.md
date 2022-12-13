@@ -13,3 +13,5 @@ Het informatiebeveiligingsbeleid bestaat uit vier niveaus [^1]
 ## 4. L4: Werkinstructies
 
 [^1]:L1 is definitief, L2 t/m L4 zijn in revisie. Dit betekent echter niet dat er geen beleid is, deze is echter toe aan vernieuwing.
+
+Dit moet nog uitgeschreven worden
