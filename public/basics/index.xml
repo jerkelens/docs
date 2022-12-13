@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introductie on Informatiebeveiligingsbeleid</title>
+    <link>https://jerkelens.github.io/content/basics/index.html</link>
+    <description>Recent content in Introductie on Informatiebeveiligingsbeleid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://jerkelens.github.io/content/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Samenhang</title>
+      <link>https://jerkelens.github.io/content/basics/samenhang/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jerkelens.github.io/content/basics/samenhang/index.html</guid>
+      <description>Het informatiebeveiligingsbeleid bestaat uit vier niveaus 1
+1. L1: Strategisch beleid 2. L2: Tactisch informatiebeveiligingsbeleid 3. L3: Tactisch-Operationele standaarden 4. L4: Werkinstructies L1 is definitief, L2 t/m L4 zijn in revisie. Dit betekent echter niet dat er geen beleid is, deze is echter toe aan vernieuwing.&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    <item>
+      <title>Wijzigingshistorie</title>
+      <link>https://jerkelens.github.io/content/basics/historie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jerkelens.github.io/content/basics/historie/index.html</guid>
+      <description>Breaking A change that requires action by you after upgrading to assure the site is still functional.
+Change A change in default behavior. This may requires action by you / may or may not be revertable by configuration.
+New Marks new behavior you might find interesting or comes configurable.
+1.1 (Gepland eind Q1-2023) New Start meertalige ondersteuning.
+New Eerste reviewronde op gehele beleid.
+1.0 (Gepland 22-12-15) New Integratie met GitHub.</description>
+    </item>
+  </channel>
+</rss>

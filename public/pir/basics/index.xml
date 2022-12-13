@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introductie on Beleid, but pirrrrates</title>
+    <link>https://jerkelens.github.io/content/pir/basics/index.html</link>
+    <description>Recent content in Introductie on Beleid, but pirrrrates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://jerkelens.github.io/content/pir/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Samenhangrrr</title>
+      <link>https://jerkelens.github.io/content/pir/basics/samenhang/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jerkelens.github.io/content/pir/basics/samenhang/index.html</guid>
+      <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
+Het informatiebeveiligingsbeleid bestaat uit vier niveaus 1
+1. L1: Strategisch beleid 2. L2: Tactisch informatiebeveiligingsbeleid 3. L3: Tactisch-Operationele standaarden 4. L4: Werkinstructies L1 be definitief, L2 t/m L4 zijn &#39;n revisie. Dit betekent echter niet dat er geen beleid be, deze be echter toe aan vernieuw&#39;n.</description>
+    </item>
+    <item>
+      <title>Wijzigingshistorie</title>
+      <link>https://jerkelens.github.io/content/pir/basics/historie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jerkelens.github.io/content/pir/basics/historie/index.html</guid>
+      <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
+Break&#39;n A change that requires act&#39;n by ye aft upgrad&#39;n t&#39; assure th&#39; ship be still functional.
+Change A change &#39;n default behavior. This may requires act&#39;n by ye / may or may not be revert&#39;ble by configurat&#39;n.
+New Marks new behavior ye might find interest&#39;n or comes configur&#39;ble.</description>
+    </item>
+  </channel>
+</rss>
