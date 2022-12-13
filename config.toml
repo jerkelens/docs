@@ -1,7 +1,7 @@
 # this is a required setting for this theme to appear on https://themes.gohugo.io/
 # change this to a value appropriate for you; if your site is served from a subdirectory
 # set it like "https://example.com/mysite/"
-baseURL = "https://github.com/jerkelens/docs/tree/main/content"
+baseURL = ""
 
 # canonicalization will only be used for the sitemap.xml and index.xml files;
 # if set to false, a site served from a subdirectory will generate wrong links
@@ -138,7 +138,7 @@ disableHugoGeneratorInject = true
 # settings specific to this theme's features; choose to your likings and
 # consult this documentation for explaination
 [params]
-  editURL = "https://github.com/jerkelens/docs/content/"
+  editURL = "http://localhost:1313/jerkelens/docs/tree/main/content/"
   description = "informatiebeveiligingsbeleid"
   weight = 3
   author = "CeO Information Security"
