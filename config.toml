@@ -138,7 +138,7 @@ disableHugoGeneratorInject = true
 # settings specific to this theme's features; choose to your likings and
 # consult this documentation for explaination
 [params]
-  editURL = "https://github.com/jerkelens/docs"
+  editURL = "https://github.com/jerkelens/docs/content/"
   description = "informatiebeveiligingsbeleid"
   weight = 3
   author = "CeO Information Security"
