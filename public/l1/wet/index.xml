@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5. Wet- en regelgeving on Informatiebeveiligingsbeleid</title>
-    <link>https://jerkelens.github.io/content/l1/wet/index.html</link>
+    <link>/l1/wet/index.html</link>
     <description>Recent content in 5. Wet- en regelgeving on Informatiebeveiligingsbeleid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/l1/wet/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/l1/wet/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

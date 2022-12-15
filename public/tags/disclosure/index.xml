@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>disclosure on Informatiebeveiligingsbeleid</title>
+    <link>/tags/disclosure/index.html</link>
+    <description>Recent content in disclosure on Informatiebeveiligingsbeleid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/disclosure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standaard: Kwetsbaarhedenmanagement</title>
+      <link>/l3/kwetsbaarheden/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/l3/kwetsbaarheden/index.html</guid>
+      <description>DoelstellingDe ANWB gebruikt het kwetsbaarhedenmanagementproces (of ‘Vulnerability Management proces’) om digitale kwetsbaarheden te identificeren en adresseren. Het kwetsbaarhedenmanagementproces is complementair aan het patchmanagementproces, het één kan impact hebben op het ander. Door softwarematige kwetsbaarheden te identificeren, te evalueren en aan te pakken, kan de ANWB haar aanvalsoppervlak verkleinen om zo aanvallen helpen voorkomen en de schade beperken als zich een aanval voordoet.
+Maatregelen VLN-01: &amp;ldquo;De uitgangspunten van het vulnerability management proces zijn verankerd in het bovenliggende L2 tactisch informatiebeveiligingsbeleid.</description>
+    </item>
+  </channel>
+</rss>

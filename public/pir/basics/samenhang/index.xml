@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Samenhangrrr on Beleid, but pirrrrates</title>
-    <link>https://jerkelens.github.io/content/pir/basics/samenhang/index.html</link>
+    <link>/pir/basics/samenhang/index.html</link>
     <description>Recent content in Samenhangrrr on Beleid, but pirrrrates</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/pir/basics/samenhang/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/pir/basics/samenhang/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

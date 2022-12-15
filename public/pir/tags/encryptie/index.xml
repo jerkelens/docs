@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>encryptie on Beleid, but pirrrrates</title>
+    <link>/pir/tags/encryptie/index.html</link>
+    <description>Recent content in encryptie on Beleid, but pirrrrates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/pir/tags/encryptie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standaard: Cryptografie</title>
+      <link>/pir/l3/cryptografie/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/pir/l3/cryptografie/index.html</guid>
+      <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
+Doelstell&#39;nZorgen voor correct en doeltreffend gebruik van cryptografie om de vertrouwelijkheid, authenticiteit en/of integriteit van informatie te beschermen.
+RelatiesNorth Star capabilities: &amp;lsquo;Domeinarchitectuur Security&amp;rsquo; - Control 10 ISO/IEC: 27001:2022, 27002:2022 CIS: artikel 1-5 Baseline maatregelenBoven-baseline maatregelenControl ID Maatregel Verantwoordelijke CRG-01 Toepass&#39;n van beveiligingsmaatregelen (waaronder encryptie) vindt plaats op basis van informatieclassificatie van de desbetreffende verwerk&#39;n.</description>
+    </item>
+  </channel>
+</rss>

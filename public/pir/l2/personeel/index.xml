@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5. Veilig personeel on Beleid, but pirrrrates</title>
-    <link>https://jerkelens.github.io/content/pir/l2/personeel/index.html</link>
+    <link>/pir/l2/personeel/index.html</link>
     <description>Recent content in 5. Veilig personeel on Beleid, but pirrrrates</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/pir/l2/personeel/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/pir/l2/personeel/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

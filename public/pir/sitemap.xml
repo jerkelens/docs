@@ -1,419 +1,506 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l1/inleiding/index.html</loc>
+    <loc>/pir/l3/cryptografie/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l1/inleiding/index.html"
+                href="/l3/cryptografie/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l1/inleiding/index.html"
+                href="/pir/l3/cryptografie/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/inleiding/index.html</loc>
+    <loc>/pir/l1/inleiding/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/inleiding/index.html"
+                href="/l1/inleiding/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/inleiding/index.html"
+                href="/pir/l1/inleiding/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/basics/index.html</loc>
+    <loc>/pir/l2/inleiding/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/basics/index.html"
+                href="/l2/inleiding/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/basics/index.html"
+                href="/pir/l2/inleiding/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/basics/samenhang/index.html</loc>
+    <loc>/pir/basics/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/basics/samenhang/index.html"
+                href="/basics/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/basics/samenhang/index.html"
+                href="/pir/basics/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l1/inrichting/index.html</loc>
+    <loc>/pir/basics/samenhang/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l1/inrichting/index.html"
+                href="/basics/samenhang/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l1/inrichting/index.html"
+                href="/pir/basics/samenhang/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/doel/index.html</loc>
+    <loc>/pir/l3/kwetsbaarheden/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/doel/index.html"
+                href="/l3/kwetsbaarheden/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/doel/index.html"
+                href="/pir/l3/kwetsbaarheden/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l1/index.html</loc>
+    <loc>/pir/l1/inrichting/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l1/index.html"
+                href="/l1/inrichting/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l1/index.html"
+                href="/pir/l1/inrichting/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/basics/historie/index.html</loc>
+    <loc>/pir/l2/doel/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/basics/historie/index.html"
+                href="/l2/doel/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/basics/historie/index.html"
+                href="/pir/l2/doel/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/informatiebeveiligingsbeleid/index.html</loc>
+    <loc>/pir/l1/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/informatiebeveiligingsbeleid/index.html"
+                href="/l1/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/informatiebeveiligingsbeleid/index.html"
+                href="/pir/l1/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l1/isms/index.html</loc>
+    <loc>/pir/basics/historie/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l1/isms/index.html"
+                href="/basics/historie/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l1/isms/index.html"
+                href="/pir/basics/historie/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/index.html</loc>
+    <loc>/pir/l2/informatiebeveiligingsbeleid/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/index.html"
+                href="/l2/informatiebeveiligingsbeleid/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/index.html"
+                href="/pir/l2/informatiebeveiligingsbeleid/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/organiseren/index.html</loc>
+    <loc>/pir/l1/isms/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/organiseren/index.html"
+                href="/l1/isms/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/organiseren/index.html"
+                href="/pir/l1/isms/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l1/risk/index.html</loc>
+    <loc>/pir/l2/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l1/risk/index.html"
+                href="/l2/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l1/risk/index.html"
+                href="/pir/l2/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l3/index.html</loc>
+    <loc>/pir/l3/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l3/index.html"
+                href="/l3/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l3/index.html"
+                href="/pir/l3/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/personeel/index.html</loc>
+    <loc>/pir/l2/organiseren/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/personeel/index.html"
+                href="/l2/organiseren/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/personeel/index.html"
+                href="/pir/l2/organiseren/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l1/wet/index.html</loc>
+    <loc>/pir/l1/risk/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l1/wet/index.html"
+                href="/l1/risk/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l1/wet/index.html"
+                href="/pir/l1/risk/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/bedrijfsmiddelen/index.html</loc>
+    <loc>/pir/l2/personeel/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/bedrijfsmiddelen/index.html"
+                href="/l2/personeel/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/bedrijfsmiddelen/index.html"
+                href="/pir/l2/personeel/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l1/org/index.html</loc>
+    <loc>/pir/l1/wet/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l1/org/index.html"
+                href="/l1/wet/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l1/org/index.html"
+                href="/pir/l1/wet/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/logischetoegang/index.html</loc>
+    <loc>/pir/l2/bedrijfsmiddelen/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/logischetoegang/index.html"
+                href="/l2/bedrijfsmiddelen/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/logischetoegang/index.html"
+                href="/pir/l2/bedrijfsmiddelen/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l1/secincmgt/index.html</loc>
+    <loc>/pir/l1/org/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l1/secincmgt/index.html"
+                href="/l1/org/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l1/secincmgt/index.html"
+                href="/pir/l1/org/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/cryptografie/index.html</loc>
+    <loc>/pir/l2/logischetoegang/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/cryptografie/index.html"
+                href="/l2/logischetoegang/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/cryptografie/index.html"
+                href="/pir/l2/logischetoegang/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/fysiek/index.html</loc>
+    <loc>/pir/l1/secincmgt/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/fysiek/index.html"
+                href="/l1/secincmgt/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/fysiek/index.html"
+                href="/pir/l1/secincmgt/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/bedrijfsvoering/index.html</loc>
+    <loc>/pir/l2/cryptografie/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/bedrijfsvoering/index.html"
+                href="/l2/cryptografie/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/bedrijfsvoering/index.html"
+                href="/pir/l2/cryptografie/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/communicatie/index.html</loc>
+    <loc>/pir/l2/fysiek/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/communicatie/index.html"
+                href="/l2/fysiek/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/communicatie/index.html"
+                href="/pir/l2/fysiek/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/acquisitie/index.html</loc>
+    <loc>/pir/l2/bedrijfsvoering/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/acquisitie/index.html"
+                href="/l2/bedrijfsvoering/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/acquisitie/index.html"
+                href="/pir/l2/bedrijfsvoering/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/leveranciers/index.html</loc>
+    <loc>/pir/l2/communicatie/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/leveranciers/index.html"
+                href="/l2/communicatie/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/leveranciers/index.html"
+                href="/pir/l2/communicatie/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/incidenten/index.html</loc>
+    <loc>/pir/l2/acquisitie/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/incidenten/index.html"
+                href="/l2/acquisitie/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/incidenten/index.html"
+                href="/pir/l2/acquisitie/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/bedrijfscontinuiteit/index.html</loc>
+    <loc>/pir/l2/leveranciers/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/bedrijfscontinuiteit/index.html"
+                href="/l2/leveranciers/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/bedrijfscontinuiteit/index.html"
+                href="/pir/l2/leveranciers/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/l2/naleving/index.html</loc>
+    <loc>/pir/l2/incidenten/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/l2/naleving/index.html"
+                href="/l2/incidenten/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/l2/naleving/index.html"
+                href="/pir/l2/incidenten/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/categories/index.html</loc>
+    <loc>/pir/l2/bedrijfscontinuiteit/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/categories/index.html"
+                href="/l2/bedrijfscontinuiteit/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/categories/index.html"
+                href="/pir/l2/bedrijfscontinuiteit/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/index.html</loc>
+    <loc>/pir/l2/naleving/index.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/index.html"
+                href="/l2/naleving/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/index.html"
+                href="/pir/l2/naleving/index.html"
                 />
   </url>
   <url>
-    <loc>https://jerkelens.github.io/content/pir/tags/index.html</loc>
+    <loc>/pir/tags/cryptografie/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jerkelens.github.io/content/tags/index.html"
+                href="/tags/cryptografie/index.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
-                href="https://jerkelens.github.io/content/pir/tags/index.html"
+                href="/pir/tags/cryptografie/index.html"
+                />
+  </url>
+  <url>
+    <loc>/pir/tags/encryptie/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/encryptie/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pir"
+                href="/pir/tags/encryptie/index.html"
+                />
+  </url>
+  <url>
+    <loc>/pir/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pir"
+                href="/pir/index.html"
+                />
+  </url>
+  <url>
+    <loc>/pir/tags/kwetsbaarheden/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/kwetsbaarheden/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pir"
+                href="/pir/tags/kwetsbaarheden/index.html"
+                />
+  </url>
+  <url>
+    <loc>/pir/tags/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pir"
+                href="/pir/tags/index.html"
+                />
+  </url>
+  <url>
+    <loc>/pir/tags/vulnerabilities/index.html</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/vulnerabilities/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pir"
+                href="/pir/tags/vulnerabilities/index.html"
+                />
+  </url>
+  <url>
+    <loc>/pir/categories/index.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/index.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pir"
+                href="/pir/categories/index.html"
                 />
   </url>
 </urlset>

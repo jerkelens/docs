@@ -2,22 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Informatiebeveiligingsbeleid</title>
-    <link>https://jerkelens.github.io/content/tags/index.html</link>
+    <link>/tags/index.html</link>
     <description>Recent content in Tags on Informatiebeveiligingsbeleid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cryptografie</title>
+      <link>/tags/cryptografie/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/tags/cryptografie/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cve</title>
+      <link>/tags/cve/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/tags/cve/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>disclosure</title>
+      <link>/tags/disclosure/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/tags/disclosure/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>encryptie</title>
+      <link>/tags/encryptie/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/tags/encryptie/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kwetsbaarheden</title>
+      <link>/tags/kwetsbaarheden/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/tags/kwetsbaarheden/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>scannen</title>
+      <link>/tags/scannen/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/tags/scannen/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>termijnen</title>
+      <link>/tags/termijnen/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/tags/termijnen/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>vulnerabilities</title>
+      <link>/tags/vulnerabilities/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/tags/vulnerabilities/index.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>beleidsstructuur</title>
-      <link>https://jerkelens.github.io/content/tags/beleidsstructuur/index.html</link>
+      <link>/tags/beleidsstructuur/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/tags/beleidsstructuur/index.html</guid>
+      <guid>/tags/beleidsstructuur/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>tactisch</title>
-      <link>https://jerkelens.github.io/content/tags/tactisch/index.html</link>
+      <link>/tags/tactisch/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/tags/tactisch/index.html</guid>
+      <guid>/tags/tactisch/index.html</guid>
       <description></description>
     </item>
   </channel>

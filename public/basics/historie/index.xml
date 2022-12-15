@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wijzigingshistorie on Informatiebeveiligingsbeleid</title>
-    <link>https://jerkelens.github.io/content/basics/historie/index.html</link>
+    <link>/basics/historie/index.html</link>
     <description>Recent content in Wijzigingshistorie on Informatiebeveiligingsbeleid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/basics/historie/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/basics/historie/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

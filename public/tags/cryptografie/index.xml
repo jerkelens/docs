@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cryptografie on Informatiebeveiligingsbeleid</title>
+    <link>/tags/cryptografie/index.html</link>
+    <description>Recent content in cryptografie on Informatiebeveiligingsbeleid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cryptografie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standaard: Cryptografie</title>
+      <link>/l3/cryptografie/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/l3/cryptografie/index.html</guid>
+      <description>DoelstellingZorgen voor correct en doeltreffend gebruik van cryptografie om de vertrouwelijkheid, authenticiteit en/of integriteit van informatie te beschermen.
+RelatiesNorth Star capabilities: &amp;lsquo;Domeinarchitectuur Security&amp;rsquo; - Control 10 ISO/IEC: 27001:2022, 27002:2022 CIS: artikel 1-5 Baseline maatregelenBoven-baseline maatregelenControl ID Maatregel Verantwoordelijke CRG-01 Toepassing van beveiligingsmaatregelen (waaronder encryptie) vindt plaats op basis van informatieclassificatie van de desbetreffende verwerking. Dit geschied op basis van risicoanalyse en functionaliteitseisen Eigenaar ICT-bedrijfsmiddel CRG-02 ANWB volgt geldende wet- en regelgeving voor toepassing van passende encryptiemaatregelen en -parameters (zoals onder andere beschreven door het NCSC: https://www.</description>
+    </item>
+  </channel>
+</rss>

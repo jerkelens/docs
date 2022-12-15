@@ -1,5 +1,15 @@
 var relearn_search_index = [
   {
+    "content": "\rDoelstelling\rZorgen voor correct en doeltreffend gebruik van cryptografie om de vertrouwelijkheid, authenticiteit en/of integriteit van informatie te beschermen.\nRelaties\rNorth Star capabilities: ‘Domeinarchitectuur Security’ - Control 10 ISO/IEC: 27001:2022, 27002:2022 CIS: artikel 1-5 Baseline maatregelen\rBoven-baseline maatregelen\rControl ID Maatregel Verantwoordelijke CRG-01 Toepassing van beveiligingsmaatregelen (waaronder encryptie) vindt plaats op basis van informatieclassificatie van de desbetreffende verwerking. Dit geschied op basis van risicoanalyse en functionaliteitseisen Eigenaar ICT-bedrijfsmiddel CRG-02 ANWB volgt geldende wet- en regelgeving voor toepassing van passende encryptiemaatregelen en -parameters (zoals onder andere beschreven door het NCSC: https://www.ncsc.nl/documenten/publicaties/2019/mei/01/ict-beveiligingsrichtlijnen-voor-transport-layer-security-tls Eigenaar ICT-bedrijfsmiddel CRG-03 Erkende cryptografische technieken per toepassingsgebied zijn:\n* Integriteit: encryptie (hashing)\n* Vertrouwelijkheid: encryptie\n* Onweerlegbaarheid: digitale handtekening\n* Authenticatie: digitale handtekening\nDaar waar borging van verschillende toepassingsgebieden nodig is, kan dit leiden tot toepassing van meerdere cryptografische technieken. Eigenaar ICT-bedrijfsmiddel CRG-04 Transportversleuteling is een afgeleide van informatieclassificatie en volgt onderstaande schema:\n* Classificatieniveau ‘laag’: transportbeveiliging binnen en buiten het interne netwerk\n* Classificatieniveau ‘midden’: transportbeveiliging binnen en buiten het interne netwerk\n* Classificatieniveau ‘hoog’: transport en berichtbeveiliging Eigenaar ICT-bedrijfsmiddel CRG-05 Tussen alle serversystemen van de ANWB, danwel in gebruik door de ANWB wordt altijd mutual TLS gebruikt Eigenaar ICT-bedrijfsmiddel CRG-06 Voor validatie van e-mailsystemen wordt minimaal STARTTLS gebruikt Eigenaar ICT-bedrijfsmiddel CRG-07 Om de informatie met het classificatielabel ‘vertrouwelijk’ en ‘zeer vertrouwelijk’ op verwijderbare media te beschermen, zodat deze informatie niet in onbevoegde handen kan vallen bij onjuist gebruik, verlies of diefstal, dient deze te worden versleuteld. Eigenaar ICT-bedrijfsmiddel CRG-08 Om authenticatiemiddelen zoals wachtwoorden te beschermen tegen inzage en wijzigingen door onbevoegden tijdens transport en opslag, dienen deze te worden versleuteld. Eigenaar ICT-bedrijfsmiddel CRG-09 Om een correcte en veilige bediening van mobiele (privé-)apparatuur en thuiswerkplek te waarborgen, is de ANWB bevoegd om beveiligingsinstellingen af te dwingen. Dit heeft betrekking op zowel door de ANWB verstrekte middelen, als privé-apparatuur (‘bring your own device’ (BYOD)). Dit betreft onder meer versleuteling. Eigenaar ICT-bedrijfsmiddel CRG-10 Om bedrijfsinformatie op mobiele apparaten te beveiligen zijn deze zo ingericht dat geen bedrijfsinformatie wordt opgeslagen (‘zero footprint’). Voor het geval dat zero footprint (nog) niet realiseerbaar is, of functioneel onwenselijk is, wordt de toegang tot het apparaat beschermd door middel van een wachtwoord, eventuele biometrie zoals fingerprint, en is apparaat versleuteling geïmplementeerd (conform classificatie-eisen). Dit gebeurt in ieder geval bij beveiligde opslag van ANWB informatie en bedrijfsinformatie van derde partijen, waar de ANWB niet de bronhouder is, maar via het ANWB platform wordt ontsloten. Als deze informatie al wordt toegestaan op het apparaat. Eigenaar ICT-bedrijfsmiddel CRG-11 Voor alle data geldt dat versleuteling geregeld is op een manier die recht doet aan de ANWB beschermingseisen zoals beschreven in het ‘Informatiebeveiligingsbeleid’. Eigenaar ICT-bedrijfsmiddel CRG-12 Interne en externe communicatie naar webservers verloopt altijd over HTTPS Eigenaar ICT-bedrijfsmiddel CRG-13 Digitale documenten van de ANWB waar derden rechten aan kunnen ontlenen, maken gebruik van certificaten voor tekenen en/of encryptie. Eigenaar ICT-bedrijfsmiddel CRG-14 Dataencryptie vindt plaats in alle fasen van de data levenscyclus: creatie, opslag, gebruik, deling, archivering, vernietiging en ongeacht de gegevensdrager Eigenaar ICT-bedrijfsmiddel CRG-15 ANWB is altijd de eigenaar en houder van private keys. In het geval van ‘hosted key vaults’ worden ANWB-keys daar geplaatst. Het eigenaarschap van elke key pair ligt bij de diensteigenaar Eigenaar ICT-bedrijfsmiddel CRG-16 Data dat buiten systemen van de ANWB wordt opgeslagen, dient te worden voorzien van dataencryptie waarbij de ANWB eigenaar is van het sleutelpaar Eigenaar ICT-bedrijfsmiddel CRG-17 Data in Transit (data wat van locatie A naar locatie B gaat) dient altijd te worden voorzien van transportversleuteling Eigenaar ICT-bedrijfsmiddel CRG-18 Data at Rest (data ergens opgeslagen op disk) dient altijd te worden voorzien van minimaal diskencryptie, en afhankelijk van de informatieclassificatie ook van dataencryptie Eigenaar ICT-bedrijfsmiddel CRG-19 Data in Use (data die momenteel ingelezen is als onderdeel van een actieve verwerking) wordt voorzien van format-preserving encryption áls de dienst dit ondersteunt. Eigenaar ICT-bedrijfsmiddel CRG-20 Direct na ontvangst van het certificaat, maar in ieder geval alvorens over te gaan tot installatie en gebruik, het digitale certificaat op haar volledige en juiste inhoud zal worden gecontroleerd. Eigenaar ICT-bedrijfsmiddel CRG-21 Certificaten worden centraal bijgehouden in een certificate inventory. Eigenaar ICT-bedrijfsmiddel CRG-22 Daar waar van toepassing moet ‘reversible encryption’ altijd worden uitgeschakeld. Eigenaar ICT-bedrijfsmiddel CRG-23 Keys worden gegenereerd door .. en bewaard in .. ?? CRG-24 Keypairs worden na creatie overgedragen aan de producteigenaren via .. ?? CRG-25 Key revocation wordt gedaan door .. ?? CRG-26 Key renewals worden gedaan door .. ?? CRG-27 Er zijn op dit moment binnen ANWB geen use-cases voor hardtokens Eigenaar ICT-bedrijfsmiddel CRG-28 Diskencryptie van harde schijven (Windows clients): BitLocker XTS-AES 128 of hoger Eigenaar ICT-bedrijfsmiddel CRG-29 Diskencryptie van harde schijven (Windows clients) wordt opgeslagen in TPM (minimaal versie 1.2) Eigenaar ICT-bedrijfsmiddel CRG-30 Andere diskencryptiestandaarden die gebruikt mogen worden, dienen FIPS 140-2 gecertificeerd te zijn Eigenaar ICT-bedrijfsmiddel CRG-31 Keylengtes, algoritmes, encryptiemethoden en de toepassing van salts worden bepaald op basis van risicoanalyse van de desbetreffende usecase Eigenaar ICT-bedrijfsmiddel CRG-32 SSL 1.0, 2.0 en 3.0, alsmede TLS 1.0, 1.1 en 1.2 mogen niet meer gebruikt worden, TLS 1.3 is standaard (zie: https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf, pagina 13) Eigenaar ICT-bedrijfsmiddel CRG-33 Voor geaccepteerde hashing algoritmes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf, pagina 18 Eigenaar ICT-bedrijfsmiddel CRG-34 Voor geaccepteerde sleuteluitwisseling algoritmes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf, pagina 18. Eigenaar ICT-bedrijfsmiddel CRG-35 Voor geaccepteerde certificaatvalidatie algoritmes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf, pagina 19. Eigenaar ICT-bedrijfsmiddel CRG-36 Voor geaccepteerde bulkversleuteling algoritmes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf, pagina 20 Eigenaar ICT-bedrijfsmiddel CRG-37 Voor geaccepteerde sleutellengtes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf, pagina 20. Eigenaar ICT-bedrijfsmiddel CRG-38 De TLS certificaat mag maximaal 13 maanden gelden zijn, dit weerspiegelt ANWB voor certificaten die intern worden uitgegeven via een PKI op basis van het ‘webserver’-template. Eigenaar ICT-bedrijfsmiddel Control ID Maatregel Verantwoordelijke CRG-39 Certificate pinning voor boven baseline systemen is wenselijk, indien de dienst dit ondersteunt. Eigenaar ICT-bedrijfsmiddel ",
+    "description": "",
+    "tags": [
+      "cryptografie",
+      "encryptie"
+    ],
+    "title": "Standaard: Cryptografie",
+    "uri": "/l3/cryptografie/index.html"
+  },
+  {
     "content": "Hier komt inleiding\nenzo\n..\n",
     "description": "",
     "tags": null,
@@ -29,6 +39,20 @@ var relearn_search_index = [
     "tags": null,
     "title": "Samenhang",
     "uri": "/basics/samenhang/index.html"
+  },
+  {
+    "content": "\rDoelstelling\rDe ANWB gebruikt het kwetsbaarhedenmanagementproces (of ‘Vulnerability Management proces’) om digitale kwetsbaarheden te identificeren en adresseren. Het kwetsbaarhedenmanagementproces is complementair aan het patchmanagementproces, het één kan impact hebben op het ander. Door softwarematige kwetsbaarheden te identificeren, te evalueren en aan te pakken, kan de ANWB haar aanvalsoppervlak verkleinen om zo aanvallen helpen voorkomen en de schade beperken als zich een aanval voordoet.\nMaatregelen VLN-01: “De uitgangspunten van het vulnerability management proces zijn verankerd in het bovenliggende L2 tactisch informatiebeveiligingsbeleid.”\nUitvoeringsverantwoordelijke: ‘CoE Information Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-02: “De ANWB heeft de technische mogelijkheden en bijpassend mandaat om alle systemen die op haar netwerk zijn aangesloten, te scannen op kwetsbaarheden. Dit betreft alles wat IP-technisch adresseerbaar is. Dit bestrijkt de gehele ANWB-omgeving, inclusief dochterondernemingen.”\nUitvoeringsverantwoordelijke: ‘CoE Information Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-03: “De ANWB heeft technische- en beleidsmaatregelen in plaats om alle ICT-apparatuur te scannen of toetsen zodra deze verbinding maakt met een netwerk van de ANWB.”\nUitvoeringsverantwoordelijke: ‘TLDE - Network \u0026 Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-04: “De ANWB scant alle informatiesystemen, in elke locatie, op kwetsbaarheden en noemt dit ‘vulnerability scans’. Voor systemen in eigen datacentra en op colocaties is kwetsbaarheden scanning eveneens van toepassing. Voor het scannen van cloud-intrastructuur en hosting bij derde partijen wordt scannen op kwetsbaarheden in de REH gevraagd aan de dienstleverancier.”\nUitvoeringsverantwoordelijke: ‘TLDE - Network \u0026 Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-05: “Naast vulnerability scans worden er vanuit het CoE Information Security ook pentests gedaan op diensten, infrastructuur en technische oplossingen. Deze testen onderscheiden zich van vulnerability assessments door de zeer beperkte scope van de scan en het moment waarop deze plaatsvindt. Dit is bij ingebruikname van een nieuwe dienst , proces of applicatie, maar kan ook gebeuren bij een significante technische upgrade van een bestaande dienst, proces of applicatie.”\nUitvoeringsverantwoordelijke: ‘CoE Information Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-06: “De ANWB behoudt een compleet overzicht van alle kwetsbaarheden op alle ICT-middelen. Dit betekent dat ook de onderlinge relaties tussen data, verwerkingen en ICT-bedrijfsmiddelen wordt vastgelegd. Dit overzicht logt de CVE’s en bewaakt voortgang voor alle betrokken partijen . Daar waar ICT-bedrijfsmiddelen van derden betrokken zijn, zijn hier passende SLA’s en afspraken met betrekking tot handelingsperspectieven voor.”\nUitvoeringsverantwoordelijke: ‘TLDE - Network \u0026 Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-07: “De verantwoordelijkheid van het verhelpen van een kwetsbaarheid ligt bij de desbetreffende systeemeigenaar waar de kwetsbaarheid in wordt aangetroffen.”\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-08: “Indien een informatiesysteem een kwetsbaarheid bevat waarbij de dienstverlening (het technisch beheer) is uitbesteed aan een derde partij, dan is de ANWB systeemeigenaar de eigenaar van de kwetsbaarheid.”\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-09: “Indien een verhelpende update niet geïnstalleerd kan worden, of voor onevenredig grote nadelige bijeffecten zorgt, kan een update uitgesteld worden. Dit kan alleen als er mitigerende maatregelen genomen kunnen worden die het risico terugbrengen tot acceptabel niveau. Dit betreft een uitzonderingssituatie, waartoe de desbetreffende ISO (van het aandachtsgebied waar deze vraag uit voortkomt) kan beslissen, desnoods in overleg met de CISO.”\nUitvoeringsverantwoordelijke: ‘CoE Information Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-10: “Updates installeren om digitale kwetsbaarheden te verhelpen is altijd het doel . Tijdelijke uitstel kan verleend worden als de systeemeigenaar daar een goede reden voor heeft en er akkoord is vanuit het CoE Information Security.”\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-11: “Naast de TLDE - ‘Network \u0026 Security’ practise, waar vanuit periodieke digitale kwetsbaarhedenanalyses worden uitgevoerd, moeten systeemeigenaren zelf ook op de hoogte blijven van eventuele of geduide kwetsbaarheden. Hierbij heeft elke systeemeigenaar de verantwoordelijkheid hier zelf een modus operandi in te vinden, denk bijvoorbeeld aan het abonneren op nieuwsbrieven van de leverancier van het informatiesysteem of het ICT-bedrijfsmiddel, of blogs van desbetreffende oplossingen. Dit geldt extra voor systeemeigenaren van informatiesystemen die (contract)technisch niet kunnen (of mogen) worden gescand.”\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-12: “De publicatie van kwetsbaarheden leidt tot updates, fixes en andere mitigaties. Dit is een top-down benadering van kwetsbaarheden management. Daarnaast kan de publicatie van updates, fixes of mitigaties ook leiden tot een bottom-up benadering van kwetsbaarheden management. Beiden kunnen leiden tot gelijke opvolging van de kwetsbaarheden. “\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-13: “Omdat TLDE - ‘Network \u0026 Security’ put uit verschillende threat intelligence bronnen is zij vaak als eerste op de hoogte van nieuwe kwetsbaarheden. TLDE - ‘Network \u0026 Security’ voert triage uit en definieert vervolgacties. Bij spoedacties, houden zij regie en dragen zij zorg voor adequate doorvoering van de fixes.”\nUitvoeringsverantwoordelijke: ‘TLDE - Network \u0026 Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-14: *“De eerste opvolging van een aangetroffen kwetsbaarheid is een risicoweging. Hiervoor gebruikt ANWB altijd de volgende formule:\nRisico = Exposure x Kwetsbaarheid x (Doelgroep + belang + classificatie)\nZie X voor meer info\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-15: “De termijn waarin updates moeten worden toegepast is afhankelijk van de uitkomst van de risicoweging in bijlage. Zie kolom ‘Actie’. Deze uitkomst is bindend en de regie hiervan ligt bij ‘TLDE – Network \u0026 Security’ “\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-16: “Wanneer een update met spoed doorgevoerd moet worden wat niet leidt tot dienstverstoring, wordt het PRIO-1 proces gehanteerd. ‘TLDE - Network \u0026 Security’ heeft hierbij de regie en moet dus aangehaakt zijn.”\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-17: “Wanneer een update moet spoed doorgevoerd moet worden wat leidt tot dienstverstoring, wordt het PRIO-1 proces gehanteerd. Afstemming met ‘TLDE - Network \u0026 Security’ is hierbij vereist. De lijnmanager zal een Business Continuity Management (BCM) afweging maken i.v.m. de dienstverstoring. Indien deze er niet uit komt, zal dit besproken worden tussen systeemeigenaar, leadership team en eventueel CIO. Ook blijft het CoE Information Security hier nauw bij betrokken.”\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-18: “Er wordt minimaal 1x per maand gerapporteerd over alle bevonden kwetsbaarheden met opvolgingsstatus en verantwoordelijke. Voor alle openstaande zaken moet op zijn minst een handelingsperspectief opgenomen worden. Dit rapport gaat naar de CISO.”\nUitvoeringsverantwoordelijke: ‘TLDE – Network \u0026 Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-19: \"‘TLDE – Network \u0026 Security’ heeft een faciliterende rol wanneer bestanden voor de update achter een loginpagina zitten. Ook als rechten nodig zijn voor de installatie, faciliteert ‘TLDE – Network \u0026 Security’ hier ook bij.”\nUitvoeringsverantwoordelijke: ‘TLDE – Network \u0026 Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-20: “ANWB kanaliseert responsible disclosures middels security.txt op haar internet domeinnamen.”\nUitvoeringsverantwoordelijke: ‘Eigenaar ICT-bedrijfsmiddel’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nVLN-21: “Standaard krijgen alle scrum-teams inzicht in voor hen relevante kwetsbaarheden via dashboarding, aangeleverd vanuit Rapid7 door CoE Information Security.”\nUitvoeringsverantwoordelijke: ‘TLDE – Network \u0026 Security’\nISO/IEC27001:2022-art. 5,6 \u0026 7 | CIS-art.1-10, 12, 20 | NS-SecArch Control 10, 10.1\nUitwerking formule risicoweging De door de ANWB gehanteerde formule is als volgt:\nRisico = Exposure x Kwetsbaarheid x (Doelgroep + Belang + Classificatie)\nExposure Exposure geeft inzicht in welke mate of vorm het systeem of applicatie is blootgesteld aan de buitenwereld.\nExterne exposure: 8 Interne exposure: 4 Geisoleerde interne exposure: 1 Kwetsbaarheid De classificatie op basis van de CVSS (v3) methode. 1\nCritical (9.0 – 10): 8 High (7.0 – 8.9): 6 Medium (4.0 – 6.9): 4 Low (0.1 – 3.9): 2 No Impact (0): 0 Doelgroep Wat is de scope van de impact wanneer de kwetsbaarheid misbruikt wordt. Wie wordt er door geraakt.\nANWB: 4 Business unit: 3 Afdeling: 2 Individu: 1 Belang Wat is het belang van het informatiesysteem voor de organisatie.\nHoog: 4 Laag: 2 Classificatie De classificatie van het informatiesysteem.\nBoven baseline: 4 Baseline: 2 Dit geeft een bepaalde waarde, die leidt tot handelingsperspectief:\nRisico score Handelingsperspectief 0 - 239 De update wordt binnen een regulier onderhoudsvenster doorgevoerd 240 - 499 De update is binnen een maand doorgevoerd 500 - 575 De update is binnen een week doorgevoerd 575 \u003e De update wordt direct doorgevoerd Rekenvoorbeeld Er is een kwetsbaarheid aangetoond in het centrale e-mailplatform van ANWB, met een kritieke CVSS score (9.8). Hieruit halen we:\nCriterium Zwaarte Verklaring Exposure 8 E-mail is inherent internet-facing Kwetsbaarheid 8 Een 9,8 CVSS valt in de kwetsbaarheidscategorie ‘Critical’ Doelgroep 4 E-mail wordt gebruikt door de gehele organisatie Belang 4 Het e-mailplatform kent een kritiek bedrijfsbelang Classificatie 4 Het e-mailplatform is geclassificeerd als ‘boven baseline’ Volgens de formule betekent dit een risico score van: 8 x 8 x (4 + 4 + 4) = 768; en deze is hoger dan de hoogste risico score en de update moet dus direct doorgevoerd worden.\nhttps://www.first.org/cvss/v3.0/specification-document ↩︎\n",
+    "description": "",
+    "tags": [
+      "kwetsbaarheden",
+      "vulnerabilities",
+      "scannen",
+      "disclosure",
+      "cve",
+      "termijnen"
+    ],
+    "title": "Standaard: Kwetsbaarhedenmanagement",
+    "uri": "/l3/kwetsbaarheden/index.html"
   },
   {
     "content": "Hier komt beleidsmatige inrichting\n",
@@ -80,6 +104,13 @@ var relearn_search_index = [
     "uri": "/l2/index.html"
   },
   {
+    "content": "L3\n",
+    "description": "",
+    "tags": null,
+    "title": "L3 - Standaarden",
+    "uri": "/l3/index.html"
+  },
+  {
     "content": "Hier komt org\nenzo\n..\n",
     "description": "",
     "tags": null,
@@ -92,13 +123,6 @@ var relearn_search_index = [
     "tags": null,
     "title": "4. Systeemclassificatie en risico-assessmentproces",
     "uri": "/l1/risk/index.html"
-  },
-  {
-    "content": "L3\n",
-    "description": "",
-    "tags": null,
-    "title": "L3 - Standaarden",
-    "uri": "/l3/index.html"
   },
   {
     "content": "Hier komt Veilig personeel\nenzo\n..\n",
@@ -209,15 +233,29 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
-    "title": "beleidsstructuur",
-    "uri": "/tags/beleidsstructuur/index.html"
+    "title": "cryptografie",
+    "uri": "/tags/cryptografie/index.html"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
-    "title": "Categories",
-    "uri": "/categories/index.html"
+    "title": "cve",
+    "uri": "/tags/cve/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "disclosure",
+    "uri": "/tags/disclosure/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "encryptie",
+    "uri": "/tags/encryptie/index.html"
   },
   {
     "content": "Welkom bij informatiebeveiligingsbeleid van ORGX! Hier vind je ons volledige informatiebeveiligingsbeleid. Hier staat al het actuele beleid, en is een one-stop shop voor alle vragen omrent informatiebeveiliging binnen ORGX.\nOmdat het gehost wordt op GITHUB, kun je rechtsbovenin klikken op ‘’ om wijzigingen voor te stellen, doe dit vooral! Alle voorgestelde wijzigingen worden eens per kwartaal door het CoE Information Security behandeld. Alle wijzigingen op dit beleid zijn terug te lezen in de wijzigingshistorie.\nDaarnaast kun je een printversie verkrijgen door op een pagina rechtsbovenin de print-view op te vragen, door te klikken op ‘’\n",
@@ -230,8 +268,15 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
-    "title": "tactisch",
-    "uri": "/tags/tactisch/index.html"
+    "title": "kwetsbaarheden",
+    "uri": "/tags/kwetsbaarheden/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "scannen",
+    "uri": "/tags/scannen/index.html"
   },
   {
     "content": "",
@@ -239,5 +284,40 @@ var relearn_search_index = [
     "tags": null,
     "title": "Tags",
     "uri": "/tags/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "termijnen",
+    "uri": "/tags/termijnen/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "vulnerabilities",
+    "uri": "/tags/vulnerabilities/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "beleidsstructuur",
+    "uri": "/tags/beleidsstructuur/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Categories",
+    "uri": "/categories/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "tactisch",
+    "uri": "/tags/tactisch/index.html"
   }
 ]

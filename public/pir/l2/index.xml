@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>L2 - Tactisch on Beleid, but pirrrrates</title>
-    <link>https://jerkelens.github.io/content/pir/l2/index.html</link>
+    <link>/pir/l2/index.html</link>
     <description>Recent content in L2 - Tactisch on Beleid, but pirrrrates</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/pir/l2/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/pir/l2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Inleiding</title>
-      <link>https://jerkelens.github.io/content/pir/l2/inleiding/index.html</link>
+      <link>/pir/l2/inleiding/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/inleiding/index.html</guid>
+      <guid>/pir/l2/inleiding/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Voor u ligt de informatiebeveiligingsbaseline van de ANWB Groep (hierna te noemen: ANWB), dit be een tactisch beleidsdocument (L2). Deze baseline vormt het uitgangspunt voor de ANWB om inhoud te geven aan informatiebeveilig&#39;n binnen de organisatie.
 Het beleid be opgesteld aan de hand van de ISO27001-informatiebeveiligingsnorm.</description>
     </item>
     <item>
       <title>2. Doel informatiebeveiliging</title>
-      <link>https://jerkelens.github.io/content/pir/l2/doel/index.html</link>
+      <link>/pir/l2/doel/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/doel/index.html</guid>
+      <guid>/pir/l2/doel/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Het beleid vormt de basis voor een evenwichtig (doeltreffend en doelmatig) stelsel van onderl&#39;n samenhangende maatregelen die de informatievoorzien&#39;n beschermen tegen interne en externe bedreigingen.
 De doelstellingen op het gebied van informatiebeveilig&#39;n worden geconcretiseerd als onderdeel van het ISMS-proces risicobeoordel&#39;n en -behandel&#39;n.</description>
     </item>
     <item>
       <title>3. Informatiebeveiligingsbeleid</title>
-      <link>https://jerkelens.github.io/content/pir/l2/informatiebeveiligingsbeleid/index.html</link>
+      <link>/pir/l2/informatiebeveiligingsbeleid/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/informatiebeveiligingsbeleid/index.html</guid>
+      <guid>/pir/l2/informatiebeveiligingsbeleid/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 AhoiDoelstell&#39;n
 Beheren van de informatiebeveilig&#39;n (IB) binnen de organisatie. Er be informatiebeveiligingsbeleid vastgesteld om de implementatie van informatiebeveilig&#39;n &#39;n de organisatie te initiëren en te beheersen. Er vindt goedkeur&#39;n van het informatiebeveiligingsbeleid plaats door het management, er be aandacht voor de toewijz&#39;n van rollen en de coördinatie en beoordel&#39;n van de implementatie van het beleid binnen de organisatie.</description>
     </item>
     <item>
       <title>4. Organiseren van informatiebeveiliging</title>
-      <link>https://jerkelens.github.io/content/pir/l2/organiseren/index.html</link>
+      <link>/pir/l2/organiseren/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/organiseren/index.html</guid>
+      <guid>/pir/l2/organiseren/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt org
 enzo
@@ -45,9 +45,9 @@ enzo
     </item>
     <item>
       <title>5. Veilig personeel</title>
-      <link>https://jerkelens.github.io/content/pir/l2/personeel/index.html</link>
+      <link>/pir/l2/personeel/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/personeel/index.html</guid>
+      <guid>/pir/l2/personeel/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt Veilig personeel
 enzo
@@ -55,9 +55,9 @@ enzo
     </item>
     <item>
       <title>6. Beheer van bedrijfsmiddelen</title>
-      <link>https://jerkelens.github.io/content/pir/l2/bedrijfsmiddelen/index.html</link>
+      <link>/pir/l2/bedrijfsmiddelen/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/bedrijfsmiddelen/index.html</guid>
+      <guid>/pir/l2/bedrijfsmiddelen/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt bb
 enzo
@@ -65,9 +65,9 @@ enzo
     </item>
     <item>
       <title>7. Bedrijfseisen voor logische toegangsbeveiliging</title>
-      <link>https://jerkelens.github.io/content/pir/l2/logischetoegang/index.html</link>
+      <link>/pir/l2/logischetoegang/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/logischetoegang/index.html</guid>
+      <guid>/pir/l2/logischetoegang/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt log
 enzo
@@ -75,9 +75,9 @@ enzo
     </item>
     <item>
       <title>8. Cryptografie</title>
-      <link>https://jerkelens.github.io/content/pir/l2/cryptografie/index.html</link>
+      <link>/pir/l2/cryptografie/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/cryptografie/index.html</guid>
+      <guid>/pir/l2/cryptografie/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt Cryptografie
 enzo
@@ -85,9 +85,9 @@ enzo
     </item>
     <item>
       <title>9. Fysieke beveiliging en beveiliging van de omgeving</title>
-      <link>https://jerkelens.github.io/content/pir/l2/fysiek/index.html</link>
+      <link>/pir/l2/fysiek/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/fysiek/index.html</guid>
+      <guid>/pir/l2/fysiek/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt Fysieke beveilig&#39;n
 enzo
@@ -95,9 +95,9 @@ enzo
     </item>
     <item>
       <title>10. Beveiliging bedrijfsvoering</title>
-      <link>https://jerkelens.github.io/content/pir/l2/bedrijfsvoering/index.html</link>
+      <link>/pir/l2/bedrijfsvoering/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/bedrijfsvoering/index.html</guid>
+      <guid>/pir/l2/bedrijfsvoering/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt bb2
 enzo
@@ -105,9 +105,9 @@ enzo
     </item>
     <item>
       <title>11. Communicatiebeveiliging</title>
-      <link>https://jerkelens.github.io/content/pir/l2/communicatie/index.html</link>
+      <link>/pir/l2/communicatie/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/communicatie/index.html</guid>
+      <guid>/pir/l2/communicatie/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt cc
 enzo
@@ -115,9 +115,9 @@ enzo
     </item>
     <item>
       <title>12. Acquisitie, ontwikkeling en onderhoud van informatiesystemen</title>
-      <link>https://jerkelens.github.io/content/pir/l2/acquisitie/index.html</link>
+      <link>/pir/l2/acquisitie/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/acquisitie/index.html</guid>
+      <guid>/pir/l2/acquisitie/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt acq
 enzo
@@ -125,9 +125,9 @@ enzo
     </item>
     <item>
       <title>13. Leveranciersrelaties</title>
-      <link>https://jerkelens.github.io/content/pir/l2/leveranciers/index.html</link>
+      <link>/pir/l2/leveranciers/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/leveranciers/index.html</guid>
+      <guid>/pir/l2/leveranciers/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt lev
 enzo
@@ -135,9 +135,9 @@ enzo
     </item>
     <item>
       <title>14. Beheer van informatiebeveiligingsincidenten</title>
-      <link>https://jerkelens.github.io/content/pir/l2/incidenten/index.html</link>
+      <link>/pir/l2/incidenten/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/incidenten/index.html</guid>
+      <guid>/pir/l2/incidenten/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt inc
 enzo
@@ -145,9 +145,9 @@ enzo
     </item>
     <item>
       <title>15. Informatiebeveiligingsaspecten van bedrijfscontinuiteitsbeheer</title>
-      <link>https://jerkelens.github.io/content/pir/l2/bedrijfscontinuiteit/index.html</link>
+      <link>/pir/l2/bedrijfscontinuiteit/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/bedrijfscontinuiteit/index.html</guid>
+      <guid>/pir/l2/bedrijfscontinuiteit/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt bcm
 enzo
@@ -155,9 +155,9 @@ enzo
     </item>
     <item>
       <title>16. Naleving</title>
-      <link>https://jerkelens.github.io/content/pir/l2/naleving/index.html</link>
+      <link>/pir/l2/naleving/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/naleving/index.html</guid>
+      <guid>/pir/l2/naleving/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Hier komt nal
 enzo

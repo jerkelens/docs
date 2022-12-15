@@ -2,39 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Informatiebeveiligingsbeleid maar pirrrrate on Beleid, but pirrrrates</title>
-    <link>https://jerkelens.github.io/content/pir/index.html</link>
+    <link>/pir/index.html</link>
     <description>Recent content in Informatiebeveiligingsbeleid maar pirrrrate on Beleid, but pirrrrates</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/pir/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/pir/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introductie</title>
-      <link>https://jerkelens.github.io/content/pir/basics/index.html</link>
+      <link>/pir/basics/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/basics/index.html</guid>
+      <guid>/pir/basics/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 L1</description>
     </item>
     <item>
       <title>L1 - Strategisch</title>
-      <link>https://jerkelens.github.io/content/pir/l1/index.html</link>
+      <link>/pir/l1/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l1/index.html</guid>
+      <guid>/pir/l1/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 L1</description>
     </item>
     <item>
       <title>L2 - Tactisch</title>
-      <link>https://jerkelens.github.io/content/pir/l2/index.html</link>
+      <link>/pir/l2/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l2/index.html</guid>
+      <guid>/pir/l2/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 Inleid&#39;n..</description>
     </item>
     <item>
       <title>L3 - Standaarden</title>
-      <link>https://jerkelens.github.io/content/pir/l3/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jerkelens.github.io/content/pir/l3/index.html</guid>
+      <link>/pir/l3/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/pir/l3/index.html</guid>
       <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
 L3</description>
     </item>

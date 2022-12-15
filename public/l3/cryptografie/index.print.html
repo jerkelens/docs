@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.106.0">
+    <meta name="generator" content="Relearn 5.7.0+tip">
+    <meta name="description" content="informatiebeveiligingsbeleid">
+    <meta name="author" content="CeO Information Security">
+    <title>Standaard: Cryptografie :: Informatiebeveiligingsbeleid</title>
+    <link href="../../l3/cryptografie/index.html" rel="canonical" type="text/html" title="Standaard: Cryptografie :: Informatiebeveiligingsbeleid">
+    <link href="../../l3/cryptografie/index.xml" rel="alternate" type="application/rss+xml" title="Standaard: Cryptografie :: Informatiebeveiligingsbeleid">
+    <link href="../../images/logo.svg?1671116866" rel="icon" type="image/svg+xml">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../css/fontawesome-all.min.css?1671116866" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css?1671116866" rel="stylesheet"></noscript>
+    <link href="../../css/featherlight.min.css?1671116866" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/featherlight.min.css?1671116866" rel="stylesheet"></noscript>
+    <link href="../../css/auto-complete.css?1671116866" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css?1671116866" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css?1671116866" rel="stylesheet">
+    <link href="../../css/nucleus.css?1671116866" rel="stylesheet">
+    <link href="../../css/fonts.css?1671116866" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css?1671116866" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css?1671116866" rel="stylesheet">
+    <link href="../../css/theme-relearn-light.css?1671116866" rel="stylesheet" id="variant-style">
+    <link href="../../css/ie.css?1671116866" rel="stylesheet">
+    <link href="../../css/variant.css?1671116866" rel="stylesheet">
+    <link href="../../css/print.css?1671116866" rel="stylesheet" media="print">
+    <link href="../../css/format-print.css?1671116866" rel="stylesheet">
+    <script src="../../js/url.js?1671116866"></script>
+    <script src="../../js/variant.js?1671116866"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../../index.search.js";
+      var root_url="../../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
+    </script>
+    <script src="../../js/jquery.min.js?1671116866" defer></script>
+    <style>
+      #body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print" data-url="../../l3/cryptografie/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../index.html"><span itemprop="name">Informatiebeveiligingsbeleid</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../l3/index.html"><span itemprop="name">L3 - Standaarden</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Standaard: Cryptografie</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+<div class="tags">
+  <a class="tag-link" href="../../tags/cryptografie/index.html">cryptografie</a>
+  <a class="tag-link" href="../../tags/encryptie/index.html">encryptie</a>
+</div>
+          </div>
+          <article class="default">
+<h1 id="standaard-cryptografie">Standaard: Cryptografie</h1>
+
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-bullseye"></i> Doelstelling</div>
+  <div class="box-content">
+<p>Zorgen voor correct en doeltreffend gebruik van cryptografie om de vertrouwelijkheid, authenticiteit en/of integriteit van informatie te beschermen.</p>
+  </div>
+</div>
+
+<div class="box notices cstyle info">
+  <div class="box-label"><i class="fa-fw fas fa-link"></i> Relaties</div>
+  <div class="box-content">
+<ul>
+<li><strong>North Star capabilities</strong>: &lsquo;Domeinarchitectuur Security&rsquo; - Control 10</li>
+<li><strong>ISO/IEC</strong>: 27001:2022, 27002:2022</li>
+<li><strong>CIS</strong>: artikel 1-5</li>
+</ul>
+  </div>
+</div>
+
+<div class="tab-panel">
+  <div class="tab-nav">
+    <button
+      data-tab-item="Baseline maatregelen"
+      data-tab-group="default"
+      class="tab-nav-button direction-ltr active"
+      onclick="switchTab('default','Baseline maatregelen')"
+      ><span>Baseline maatregelen</span></button>
+    <button
+      data-tab-item="Boven-baseline maatregelen"
+      data-tab-group="default"
+      class="tab-nav-button direction-ltr "
+      onclick="switchTab('default','Boven-baseline maatregelen')"
+      ><span>Boven-baseline maatregelen</span></button>
+  </div>
+  <div class="tab-content">
+    <div data-tab-item="Baseline maatregelen" data-tab-group="default" class="tab-item active">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Control ID</th>
+<th style="text-align:left">Maatregel</th>
+<th style="text-align:left">Verantwoordelijke</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">CRG-01</td>
+<td style="text-align:left">Toepassing van beveiligingsmaatregelen (waaronder encryptie) vindt plaats op basis van informatieclassificatie van de desbetreffende verwerking. Dit geschied op basis van risicoanalyse en functionaliteitseisen</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-02</td>
+<td style="text-align:left">ANWB volgt geldende wet- en regelgeving voor toepassing van passende encryptiemaatregelen en -parameters (zoals onder andere beschreven door het NCSC: <a href="https://www.ncsc.nl/documenten/publicaties/2019/mei/01/ict-beveiligingsrichtlijnen-voor-transport-layer-security-tls">https://www.ncsc.nl/documenten/publicaties/2019/mei/01/ict-beveiligingsrichtlijnen-voor-transport-layer-security-tls</a></td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-03</td>
+<td style="text-align:left">Erkende cryptografische technieken per toepassingsgebied zijn:<br>* Integriteit: encryptie (hashing)<br>* Vertrouwelijkheid: encryptie<br>* Onweerlegbaarheid: digitale handtekening<br>* Authenticatie: digitale handtekening<br><br>Daar waar borging van verschillende toepassingsgebieden nodig is, kan dit leiden tot toepassing van meerdere cryptografische technieken.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-04</td>
+<td style="text-align:left">Transportversleuteling is een afgeleide van informatieclassificatie en volgt onderstaande schema:<br>* Classificatieniveau ‘laag’: transportbeveiliging binnen en buiten het interne netwerk<br>* Classificatieniveau ‘midden’: transportbeveiliging binnen en buiten het interne netwerk<br>* Classificatieniveau ‘hoog’: transport en berichtbeveiliging</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-05</td>
+<td style="text-align:left">Tussen alle serversystemen van de ANWB, danwel in gebruik door de ANWB wordt altijd mutual TLS gebruikt</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-06</td>
+<td style="text-align:left">Voor validatie van e-mailsystemen wordt minimaal STARTTLS gebruikt</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-07</td>
+<td style="text-align:left">Om de informatie met het classificatielabel ‘vertrouwelijk’ en ‘zeer vertrouwelijk’ op verwijderbare media te beschermen, zodat deze informatie niet in onbevoegde handen kan vallen bij onjuist gebruik, verlies of diefstal, dient deze te worden versleuteld.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-08</td>
+<td style="text-align:left">Om authenticatiemiddelen zoals wachtwoorden te beschermen tegen inzage en wijzigingen door onbevoegden tijdens transport en opslag, dienen deze te worden versleuteld.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-09</td>
+<td style="text-align:left">Om een correcte en veilige bediening van mobiele (privé-)apparatuur en thuiswerkplek te waarborgen, is de ANWB bevoegd om beveiligingsinstellingen af te dwingen. Dit heeft betrekking op zowel door de ANWB verstrekte middelen, als privé-apparatuur (&lsquo;bring your own device&rsquo; (BYOD)). Dit betreft onder meer versleuteling.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-10</td>
+<td style="text-align:left">Om bedrijfsinformatie op mobiele apparaten te beveiligen zijn deze zo ingericht dat geen bedrijfsinformatie wordt opgeslagen (‘zero footprint’). Voor het geval dat zero footprint (nog) niet realiseerbaar is, of functioneel onwenselijk is, wordt de toegang tot het apparaat beschermd door middel van een wachtwoord, eventuele biometrie zoals fingerprint, en is apparaat versleuteling geïmplementeerd (conform classificatie-eisen). Dit gebeurt in ieder geval bij beveiligde opslag van ANWB informatie en bedrijfsinformatie van derde partijen, waar de ANWB niet de bronhouder is, maar via het ANWB platform wordt ontsloten. Als deze informatie al wordt toegestaan op het apparaat.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-11</td>
+<td style="text-align:left">Voor alle data geldt dat versleuteling geregeld is op een manier die recht doet aan de ANWB beschermingseisen zoals beschreven in het ‘Informatiebeveiligingsbeleid’.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-12</td>
+<td style="text-align:left">Interne en externe communicatie naar webservers verloopt altijd over HTTPS</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-13</td>
+<td style="text-align:left">Digitale documenten van de ANWB waar derden rechten aan kunnen ontlenen, maken gebruik van certificaten voor tekenen en/of encryptie.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-14</td>
+<td style="text-align:left">Dataencryptie vindt plaats in alle fasen van de data levenscyclus: creatie, opslag, gebruik, deling, archivering, vernietiging en ongeacht de gegevensdrager</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-15</td>
+<td style="text-align:left">ANWB is altijd de eigenaar en houder van private keys. In het geval van ‘hosted key vaults’ worden ANWB-keys daar geplaatst. Het eigenaarschap van elke key pair ligt bij de diensteigenaar</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-16</td>
+<td style="text-align:left">Data dat buiten systemen van de ANWB wordt opgeslagen, dient te worden voorzien van dataencryptie waarbij de ANWB eigenaar is van het sleutelpaar</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-17</td>
+<td style="text-align:left">Data in Transit (data wat van locatie A naar locatie B gaat) dient altijd te worden voorzien van transportversleuteling</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-18</td>
+<td style="text-align:left">Data at Rest (data ergens opgeslagen op disk) dient altijd te worden voorzien van minimaal diskencryptie, en afhankelijk van de informatieclassificatie ook van dataencryptie</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-19</td>
+<td style="text-align:left">Data in Use (data die momenteel ingelezen is als onderdeel van een actieve verwerking) wordt voorzien van format-preserving encryption áls de dienst dit ondersteunt.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-20</td>
+<td style="text-align:left">Direct na ontvangst van het certificaat, maar in ieder geval alvorens over te gaan tot installatie en gebruik, het digitale certificaat op haar volledige en juiste inhoud zal worden gecontroleerd.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-21</td>
+<td style="text-align:left">Certificaten worden centraal bijgehouden in een certificate inventory.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-22</td>
+<td style="text-align:left">Daar waar van toepassing moet ‘reversible encryption’ altijd worden uitgeschakeld.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-23</td>
+<td style="text-align:left">Keys worden gegenereerd door <code>..</code> en bewaard in <code>..</code></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-24</td>
+<td style="text-align:left">Keypairs worden na creatie overgedragen aan de producteigenaren via <code>..</code></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-25</td>
+<td style="text-align:left">Key revocation wordt gedaan door <code>..</code></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-26</td>
+<td style="text-align:left">Key renewals worden gedaan door <code>..</code></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-27</td>
+<td style="text-align:left">Er zijn op dit moment binnen ANWB geen use-cases voor hardtokens</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-28</td>
+<td style="text-align:left">Diskencryptie van harde schijven (Windows clients): BitLocker XTS-AES 128 of hoger</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-29</td>
+<td style="text-align:left">Diskencryptie van harde schijven (Windows clients) wordt opgeslagen in TPM (minimaal versie 1.2)</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-30</td>
+<td style="text-align:left">Andere diskencryptiestandaarden die gebruikt mogen worden, dienen FIPS 140-2 gecertificeerd te zijn</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-31</td>
+<td style="text-align:left">Keylengtes, algoritmes, encryptiemethoden en de toepassing van salts worden bepaald op basis van risicoanalyse van de desbetreffende usecase</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-32</td>
+<td style="text-align:left">SSL 1.0, 2.0 en 3.0, alsmede TLS 1.0, 1.1 en 1.2 mogen niet meer gebruikt worden, TLS 1.3 is standaard (zie: <a href="https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf">https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf</a>, pagina 13)</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-33</td>
+<td style="text-align:left">Voor geaccepteerde hashing algoritmes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in <a href="https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf">https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf</a>, pagina 18</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-34</td>
+<td style="text-align:left">Voor geaccepteerde sleuteluitwisseling algoritmes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in <a href="https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf">https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf</a>, pagina 18.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-35</td>
+<td style="text-align:left">Voor geaccepteerde certificaatvalidatie algoritmes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in <a href="https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf">https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf</a>, pagina 19.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-36</td>
+<td style="text-align:left">Voor geaccepteerde bulkversleuteling algoritmes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in <a href="https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf">https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf</a>, pagina 20</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-37</td>
+<td style="text-align:left">Voor geaccepteerde sleutellengtes voor TLS volgt ANWB de classificatie ‘Goed’ voor algoritmes zoals beschreven in <a href="https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf">https://www.ncsc.nl/binaries/ncsc/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1/ICT-beveiligingsrichtlijnen+voor+Transport+Layer+Security+v2.1.pdf</a>, pagina 20.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+<tr>
+<td style="text-align:center">CRG-38</td>
+<td style="text-align:left">De TLS certificaat mag maximaal 13 maanden gelden zijn, dit weerspiegelt ANWB voor certificaten die intern worden uitgegeven via een PKI op basis van het ‘webserver’-template.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+    <div data-tab-item="Boven-baseline maatregelen" data-tab-group="default" class="tab-item ">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Control ID</th>
+<th style="text-align:left">Maatregel</th>
+<th style="text-align:left">Verantwoordelijke</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">CRG-39</td>
+<td style="text-align:left">Certificate pinning voor boven baseline systemen is wenselijk, indien de dienst dit ondersteunt.</td>
+<td style="text-align:left">Eigenaar ICT-bedrijfsmiddel</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+  </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <script src="../../js/clipboard.min.js?1671116866" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js?1671116866" defer></script>
+    <script src="../../js/featherlight.min.js?1671116866" defer></script>
+    <script src="../../js/theme.js?1671116866" defer></script>
+  </body>
+</html>

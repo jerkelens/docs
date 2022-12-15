@@ -2,9 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>L3 - Standaarden on Informatiebeveiligingsbeleid</title>
-    <link>https://jerkelens.github.io/content/l3/index.html</link>
+    <link>/l3/index.html</link>
     <description>Recent content in L3 - Standaarden on Informatiebeveiligingsbeleid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/l3/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/l3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standaard: Cryptografie</title>
+      <link>/l3/cryptografie/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/l3/cryptografie/index.html</guid>
+      <description>DoelstellingZorgen voor correct en doeltreffend gebruik van cryptografie om de vertrouwelijkheid, authenticiteit en/of integriteit van informatie te beschermen.
+RelatiesNorth Star capabilities: &amp;lsquo;Domeinarchitectuur Security&amp;rsquo; - Control 10 ISO/IEC: 27001:2022, 27002:2022 CIS: artikel 1-5 Baseline maatregelenBoven-baseline maatregelenControl ID Maatregel Verantwoordelijke CRG-01 Toepassing van beveiligingsmaatregelen (waaronder encryptie) vindt plaats op basis van informatieclassificatie van de desbetreffende verwerking. Dit geschied op basis van risicoanalyse en functionaliteitseisen Eigenaar ICT-bedrijfsmiddel CRG-02 ANWB volgt geldende wet- en regelgeving voor toepassing van passende encryptiemaatregelen en -parameters (zoals onder andere beschreven door het NCSC: https://www.</description>
+    </item>
+    <item>
+      <title>Standaard: Kwetsbaarhedenmanagement</title>
+      <link>/l3/kwetsbaarheden/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/l3/kwetsbaarheden/index.html</guid>
+      <description>DoelstellingDe ANWB gebruikt het kwetsbaarhedenmanagementproces (of ‘Vulnerability Management proces’) om digitale kwetsbaarheden te identificeren en adresseren. Het kwetsbaarhedenmanagementproces is complementair aan het patchmanagementproces, het één kan impact hebben op het ander. Door softwarematige kwetsbaarheden te identificeren, te evalueren en aan te pakken, kan de ANWB haar aanvalsoppervlak verkleinen om zo aanvallen helpen voorkomen en de schade beperken als zich een aanval voordoet.
+Maatregelen VLN-01: &amp;ldquo;De uitgangspunten van het vulnerability management proces zijn verankerd in het bovenliggende L2 tactisch informatiebeveiligingsbeleid.</description>
+    </item>
   </channel>
 </rss>

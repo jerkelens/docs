@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kwetsbaarheden on Beleid, but pirrrrates</title>
+    <link>/pir/tags/kwetsbaarheden/index.html</link>
+    <description>Recent content in kwetsbaarheden on Beleid, but pirrrrates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/pir/tags/kwetsbaarheden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standaard: Kwetsbaarhedenmanagement</title>
+      <link>/pir/l3/kwetsbaarheden/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/pir/l3/kwetsbaarheden/index.html</guid>
+      <description>Arrr! PirrratesFello&#39; pirrates, be awarrre some stuff may not work fer us in this trrranslat&#39;n. Like table of rrramblings, see&#39;ng Merrrmaids, do&#39;ng math or chemistrrry and stuff.
+Doelstell&#39;nDe ANWB gebruikt het kwetsbaarhedenmanagementproces (of ‘Vulnerability Management proces’) om digitale kwetsbaarheden te identificeren en adresseren. Het kwetsbaarhedenmanagementproces be complementair aan het patchmanagementproces, het één kan impact hebben op het ander. Door softwarematige kwetsbaarheden te identificeren, te evalueren en aan te pakken, kan de ANWB haar aanvalsoppervlak verkleinen om zo aanvallen helpen voorkomen en de schade beperken als zich een aanval voordoet.</description>
+    </item>
+  </channel>
+</rss>

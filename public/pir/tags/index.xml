@@ -2,9 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Beleid, but pirrrrates</title>
-    <link>https://jerkelens.github.io/content/pir/tags/index.html</link>
+    <link>/pir/tags/index.html</link>
     <description>Recent content in Tags on Beleid, but pirrrrates</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jerkelens.github.io/content/pir/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/pir/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cryptografie</title>
+      <link>/pir/tags/cryptografie/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/pir/tags/cryptografie/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>encryptie</title>
+      <link>/pir/tags/encryptie/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/pir/tags/encryptie/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kwetsbaarheden</title>
+      <link>/pir/tags/kwetsbaarheden/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/pir/tags/kwetsbaarheden/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>vulnerabilities</title>
+      <link>/pir/tags/vulnerabilities/index.html</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/pir/tags/vulnerabilities/index.html</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
